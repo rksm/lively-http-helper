@@ -6,8 +6,8 @@ var lang = require('lively.lang'),
 
 function withResponseBodyDo(res, callback) {
   var data = "";
-  res.on('data', d => data += d)
-  res.on('end', err => callback(err, data));
+  res.on('data', function(d) { data += d });
+  res.on('end', function(err) { callback(err, data); });
 }
 
 function request(method, server, path, data, headers, callback) {
