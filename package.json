@@ -1,0 +1,12 @@
+{
+  "name": "lively-http-helper",
+  "version": "0.1.0",
+  "description": "Small wrapper around node's http.",
+  "main": "index.js",
+  "keywords": ["LivelyKernel","LivelyWeb", "testing", "http"],
+  "author": "RobertKrahn",
+  "license": "MIT",
+  "dependencies": {
+    "lively.lang": "^0.4.1"
+  }
+}
